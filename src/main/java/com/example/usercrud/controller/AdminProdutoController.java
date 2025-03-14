@@ -1,7 +1,8 @@
-package com.example.usCRUD.controller;
+package com.example.usercrud.controller;
 
-import com.example.usCRUD.model.Produto;
-import com.example.usCRUD.service.ProdutoService;
+
+import com.example.usercrud.service.ProdutoService;
+import com.example.usercrud.model.Produto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +17,6 @@ public class AdminProdutoController {
     @GetMapping("/admin/produto/{id}")
     public Produto visualizarProduto(@PathVariable Long id) {
 
-        return produtoService.buscarProdutoPorId(id);
+        return produtoService.buscarProduto(id);
     }
 }
