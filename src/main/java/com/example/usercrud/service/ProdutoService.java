@@ -15,7 +15,7 @@ public class ProdutoService {
     @Autowired
     private ProdutoRepository produtoRepository;
 
-    public Produto criarProduto(Produto produto){
+    public Produto criarProduto(Produto produto) {
         return produtoRepository.save(produto);
     }
 
@@ -25,7 +25,7 @@ public class ProdutoService {
 
     public Produto alterarProduto(Long id, Produto attProduto) {
         Optional<Produto> existeProduto = produtoRepository.findById(id);
-        if (existeProduto.isPresent()){
+        if (existeProduto.isPresent()) {
             Produto produto = existeProduto.get();
             produto.setNome(attProduto.getNome());
             produto.setCodigo(attProduto.getCodigo());
@@ -35,13 +35,16 @@ public class ProdutoService {
         return null;
     }
 
-    public boolean excluirProduto(Long id){
+    public Produto buscarProduto(Long id) {
+        return produtoRepository.findById(id).orElse(null);
+    }
+
+    public boolean excluirProduto(Long id) {
         Optional<Produto> produtoExiste = produtoRepository.findById(id);
-        if (produtoExiste.isPresent()){
+        if (produtoExiste.isPresent()) {
             produtoRepository.delete(produtoExiste.get());
             return true;
         }
         return false;
     }
 }
-
