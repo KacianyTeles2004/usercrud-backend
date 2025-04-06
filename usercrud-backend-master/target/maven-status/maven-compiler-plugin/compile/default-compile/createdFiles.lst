@@ -1,0 +1,4 @@
+com\example\usercrud\controller\UserController.class
+com\example\usercrud\model\User.class
+com\example\usercrud\repository\UserRepository.class
+com\example\usercrud\UserCrudApplication.class
