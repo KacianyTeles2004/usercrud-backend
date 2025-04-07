@@ -12,22 +12,37 @@ public class Carrinho {
     }
 
     public void aumentarQuantidade(Long id) {
-        Produto produto =
-                itens.put(produto, itens.get(produto) + 1);
+        Produto produto = itens.keySet().stream()
+                .filter(p -> p.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+        if (produto != null) {
+            itens.put(produto, itens.get(produto) + 1);
+        }
     }
 
     public void diminuirQuantidade(Long id) {
-        Produto produto =
-        if (itens.get(produto) > 1) {
-            itens.put(produto, itens.get(produto) - 1);
-        } else {
-            itens.remove(produto);
+        Produto produto = itens.keySet().stream()
+                .filter(p -> p.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+        if (produto != null) {
+            if (itens.get(produto) > 1) {
+                itens.put(produto, itens.get(produto) - 1);
+            } else {
+                itens.remove(produto);
+            }
         }
     }
 
     public void removerProduto(Long id) {
-        Produto produto =
-                itens.remove(produto);
+        Produto produto = itens.keySet().stream()
+                .filter(p -> p.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+        if (produto != null) {
+            itens.remove(produto);
+        }
     }
 
     public double calcularTotal() {
