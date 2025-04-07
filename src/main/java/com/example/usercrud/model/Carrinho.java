@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Carrinho {
-    private Map<Produto, Integer> itens = new HashMap<>();
+    private final Map<Produto, Integer> itens = new HashMap<>();
     private double frete;
 
     public void adicionarProduto(Produto produto) {

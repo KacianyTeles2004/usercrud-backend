@@ -1,4 +1,13 @@
-C:\Users\joconcei\OneDrive - Cisco\Desktop\Back-end\usercrud-backend\src\main\java\com\example\usercrud\controller\UserController.java
-C:\Users\joconcei\OneDrive - Cisco\Desktop\Back-end\usercrud-backend\src\main\java\com\example\usercrud\model\User.java
-C:\Users\joconcei\OneDrive - Cisco\Desktop\Back-end\usercrud-backend\src\main\java\com\example\usercrud\repository\UserRepository.java
-C:\Users\joconcei\OneDrive - Cisco\Desktop\Back-end\usercrud-backend\src\main\java\com\example\usercrud\UserCrudApplication.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\model\Carrinho.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\service\ProdutoService.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\controller\UserController.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\model\User.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\model\Produto.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\controller\ProdutoController.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\service\CarrinhoService.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\repository\ProdutoRepository.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\UserCrudApplication.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\service\FreteService.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\controller\ClienteProdutoController.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\repository\UserRepository.java
+C:\Users\K.teles\Desktop\SNC\usercrud-backend\src\main\java\com\example\usercrud\controller\AdminProdutoController.java
