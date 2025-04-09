@@ -11,3 +11,10 @@ public interface UserRepository extends JpaRepository<User, String> {
     @Query("SELECT u FROM User u WHERE (u.cpf = :identificador OR u.email = :identificador) AND u.senha = :senha")
     User findByCpfOrEmailAndSenha(@Param("identificador") String identificador, @Param("senha") String senha);
 }
+    boolean existsByEmail(String email);
+    boolean existsByCpf(String cpf);
+
+    Optional<User> findByEmail(String email);
+}
+
+
