@@ -86,10 +86,6 @@ public class UsuarioService {
 
                 //mudo a senha apenas se for fornecida
                 if (requestDTO.getSenha() != null && !requestDTO.getSenha().isEmpty()) {
-                    if (passwordEncoder.matches(requestDTO.getSenha(), usuarioExistente.getSenha())) {
-                        throw new RuntimeException("A senha não pode sido usada antes");
-                    }
-
                     usuarioExistente.setSenha(passwordEncoder.encode(requestDTO.getSenha()));
                 }
 
@@ -98,7 +94,7 @@ public class UsuarioService {
                     TiposUsuarios tipo = TiposUsuarios.valueOf(requestDTO.getTipo().toUpperCase());
                     usuarioExistente.setTipo(tipo);
                 } else {
-                    throw new RuntimeException("Role inválido  ou não informado");
+                    throw new RuntimeException("Tipo inválido  ou não informado");
                 }
 
                 usuarioExistente.setAtivo(requestDTO.getAtivo());
