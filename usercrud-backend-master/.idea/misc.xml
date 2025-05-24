@@ -4,11 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/backzin/usercrud-backend/pom.xml" />
-=======
-        <option value="$PROJECT_DIR$/usercrud-backend-master/pom.xml" />
->>>>>>> 1b71db271f48c32d4487dd241f3a1a673b4131cf
+        <option value="$PROJECT_DIR$/usercrud-backend/pom.xml" />
       </list>
     </option>
   </component>

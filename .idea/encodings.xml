@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/backzin/usercrud-backend/src/main/java" charset="UTF-8" />
+=======
+    <file url="file://$PROJECT_DIR$/usercrud-backend-master/src/main/java" charset="UTF-8" />
+>>>>>>> 1b71db271f48c32d4487dd241f3a1a673b4131cf
   </component>
 </project>

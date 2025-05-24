@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/backzin.iml" filepath="$PROJECT_DIR$/.idea/backzin.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/usercrud-backend-master (2).iml" filepath="$PROJECT_DIR$/.idea/usercrud-backend-master (2).iml" />
+>>>>>>> 1b71db271f48c32d4487dd241f3a1a673b4131cf
     </modules>
   </component>
 </project>
